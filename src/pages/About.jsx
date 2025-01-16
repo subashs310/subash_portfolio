@@ -27,8 +27,7 @@ const About = () => {
           transition={{ duration: 1, delayChildren: 0.5, staggerChildren: 0.2 }}
         >
           <motion.a
-            href="https://leetcode.com/"
-            target="_blank"
+            href="https://leetcode.com/u/subash_03/" target="_blank"
             rel="noreferrer"
             className="text-4xl hover:text-yellow-500 transition duration-300"
             whileHover={{ scale: 1.2 }}
@@ -36,8 +35,7 @@ const About = () => {
             <SiLeetcode />
           </motion.a>
           <motion.a
-            href="https://github.com/"
-            target="_blank"
+            href="https://github.com/subashs310" target="_blank"
             rel="noreferrer"
             className="text-4xl hover:text-yellow-500 transition duration-300"
             whileHover={{ scale: 1.2 }}
@@ -45,8 +43,7 @@ const About = () => {
             <FaGithub />
           </motion.a>
           <motion.a
-            href="https://linkedin.com/"
-            target="_blank"
+            href="https://www.linkedin.com/in/subash-saks03042003/" target="_blank"
             rel="noreferrer"
             className="text-4xl hover:text-yellow-500 transition duration-300"
             whileHover={{ scale: 1.2 }}
@@ -54,8 +51,7 @@ const About = () => {
             <FaLinkedin />
           </motion.a>
           <motion.a
-            href="https://linktr.ee/"
-            target="_blank"
+            href="https://linktr.ee/subash_S" target="_blank"
             rel="noreferrer"
             className="text-4xl hover:text-yellow-500 transition duration-300"
             whileHover={{ scale: 1.2 }}
@@ -66,13 +62,15 @@ const About = () => {
 
         {/* Resume download button */}
         <a
-          href="https://drive.google.com/uc?export=download&id=YOUR_FILE_ID"
-          target="_blank"
-          rel="noreferrer"
-          className="block w-40 mx-auto py-2 px-4 bg-blue-500 text-white text-center rounded-lg hover:bg-blue-700 transition duration-300"
-        >
-          Download cv
-        </a>
+  href="https://drive.google.com/file/d/1YrfU8o80KklZsiEXyS4eri9DzITb5MPn/view?usp=sharing"
+  target="_blank"
+  rel="noreferrer"
+  className="block w-40 mx-auto py-2 px-4 bg-blue-500 text-white text-center rounded-lg hover:bg-blue-700 transition duration-300"
+>
+  Download CV
+</a>
+
+
       </div>
     </section>
   );

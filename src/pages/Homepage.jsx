@@ -72,12 +72,12 @@ const Portfolio = () => {
             Frontend Developer
           </motion.h2>
           <motion.div className="flex justify-center space-x-6 mb-6" initial="hidden" animate="visible" variants={{ hidden: { opacity: 0, scale: 0.8 }, visible: { opacity: 1, scale: 1 } }} transition={{ duration: 1, delayChildren: 0.5, staggerChildren: 0.2 }}>
-            <motion.a href="https://leetcode.com/" target="_blank" rel="noreferrer" className="text-2xl hover:text-yellow-500 transition duration-300" whileHover={{ scale: 1.2 }}><SiLeetcode /></motion.a>
-            <motion.a href="https://github.com/" target="_blank" rel="noreferrer" className="text-2xl hover:text-yellow-500 transition duration-300" whileHover={{ scale: 1.2 }}><FaGithub /></motion.a>
-            <motion.a href="https://linkedin.com/" target="_blank" rel="noreferrer" className="text-2xl hover:text-yellow-500 transition duration-300" whileHover={{ scale: 1.2 }}><FaLinkedin /></motion.a>
-            <motion.a href="https://linktr.ee/" target="_blank" rel="noreferrer" className="text-2xl hover:text-yellow-500 transition duration-300" whileHover={{ scale: 1.2 }}><FaLink /></motion.a>
+            <motion.a href="https://leetcode.com/u/subash_03/" target="_blank" rel="noreferrer" className="text-2xl hover:text-yellow-500 transition duration-300" whileHover={{ scale: 1.2 }}><SiLeetcode /></motion.a>
+            <motion.a href="https://github.com/subashs310" target="_blank" rel="noreferrer" className="text-2xl hover:text-yellow-500 transition duration-300" whileHover={{ scale: 1.2 }}><FaGithub /></motion.a>
+            <motion.a href="https://www.linkedin.com/in/subash-saks03042003/" target="_blank" rel="noreferrer" className="text-2xl hover:text-yellow-500 transition duration-300" whileHover={{ scale: 1.2 }}><FaLinkedin /></motion.a>
+            <motion.a href="https://linktr.ee/subash_S" target="_blank" rel="noreferrer" className="text-2xl hover:text-yellow-500 transition duration-300" whileHover={{ scale: 1.2 }}><FaLink /></motion.a>
           </motion.div>
-          <motion.a href="/path-to-your-cv.pdf" download className="px-6 py-2 bg-blue-600 hover:bg-blue-800 text-white rounded-md text-lg transition duration-300" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1, delay: 1 }} whileHover={{ scale: 1.1 }}>
+          <motion.a href="https://drive.google.com/file/d/1YrfU8o80KklZsiEXyS4eri9DzITb5MPn/view?usp=sharing" download className="px-6 py-2 bg-blue-600 hover:bg-blue-800 text-white rounded-md text-lg transition duration-300" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1, delay: 1 }} whileHover={{ scale: 1.1 }}>
             Download CV
           </motion.a>
         </div>
@@ -111,12 +111,12 @@ const Portfolio = () => {
       </div>
 
       {/* Footer */}
-      <footer className="bg-gray-800 text-white py-8 text-center">
+      <footer className="bg-gray-800 text-white  py-8 text-center">
         <div className="flex justify-center space-x-6 mt-4">
-          <a href="https://leetcode.com/" target="_blank" rel="noreferrer" className="text-2xl hover:text-yellow-500 transition duration-300"><SiLeetcode /></a>
-          <a href="https://github.com/" target="_blank" rel="noreferrer" className="text-2xl hover:text-yellow-500 transition duration-300"><FaGithub /></a>
-          <a href="https://linkedin.com/" target="_blank" rel="noreferrer" className="text-2xl hover:text-yellow-500 transition duration-300"><FaLinkedin /></a>
-          <a href="https://linktr.ee/" target="_blank" rel="noreferrer" className="text-2xl hover:text-yellow-500 transition duration-300"><FaLink /></a>
+          <a href="https://leetcode.com/u/subash_03/" target="_blank" rel="noreferrer" className="text-2xl hover:text-yellow-500 transition duration-300"><SiLeetcode /></a>
+          <a href="https://github.com/subashs310" target="_blank" rel="noreferrer" className="text-2xl hover:text-yellow-500 transition duration-300"><FaGithub /></a>
+          <a href="https://www.linkedin.com/in/subash-saks03042003/"  target="_blank" rel="noreferrer" className="text-2xl hover:text-yellow-500 transition duration-300"><FaLinkedin /></a>
+          <a  href="https://linktr.ee/subash_S"  target="_blank" rel="noreferrer" className="text-2xl hover:text-yellow-500 transition duration-300"><FaLink /></a>
         </div>
         <p className="text-lg mt-3">Developed by Subash_AKS</p>
       </footer>
