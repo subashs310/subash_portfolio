@@ -77,7 +77,7 @@ const Portfolio = () => {
             <motion.a href="https://www.linkedin.com/in/subash-saks03042003/" target="_blank" rel="noreferrer" className="text-2xl hover:text-yellow-500 transition duration-300" whileHover={{ scale: 1.2 }}><FaLinkedin /></motion.a>
             <motion.a href="https://linktr.ee/subash_S" target="_blank" rel="noreferrer" className="text-2xl hover:text-yellow-500 transition duration-300" whileHover={{ scale: 1.2 }}><FaLink /></motion.a>
           </motion.div>
-          <motion.a href="https://drive.google.com/file/d/1YrfU8o80KklZsiEXyS4eri9DzITb5MPn/view?usp=sharing" download className="px-6 py-2 bg-blue-600 hover:bg-blue-800 text-white rounded-md text-lg transition duration-300" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1, delay: 1 }} whileHover={{ scale: 1.1 }}>
+          <motion.a href="https://drive.google.com/file/d/1VZFkryLO7k9lmVaS_w47C-YYJ8KHgiof/view?usp=sharing" download className="px-6 py-2 bg-blue-600 hover:bg-blue-800 text-white rounded-md text-lg transition duration-300" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1, delay: 1 }} whileHover={{ scale: 1.1 }}>
             Download CV
           </motion.a>
         </div>

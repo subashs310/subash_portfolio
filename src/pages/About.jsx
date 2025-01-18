@@ -62,7 +62,7 @@ const About = () => {
 
         {/* Resume download button */}
         <a
-  href="https://drive.google.com/file/d/1YrfU8o80KklZsiEXyS4eri9DzITb5MPn/view?usp=sharing"
+  href="https://drive.google.com/file/d/1VZFkryLO7k9lmVaS_w47C-YYJ8KHgiof/view?usp=sharing"
   target="_blank"
   rel="noreferrer"
   className="block w-40 mx-auto py-2 px-4 bg-blue-500 text-white text-center rounded-lg hover:bg-blue-700 transition duration-300"
